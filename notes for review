@@ -1,18 +1,15 @@
-Thanks you for putting together a course that brings together Python, Git, and RTFM. The integration of these skills into a game project is a smart and engaging way to reinforce real-world development workflows.
-
-That said, some aspects of the course felt a bit underdeveloped or rushed in execution. Below are some notes I took while taking the course:
+Thanks you for putting together a course that brings together Python, Git, and RTFM. The integration of these skills into a game project is a smart and engaging way to reinforce real-world development workflows. I aknowledge and appreciate that we, the soft-handed, coddled, and spoiled learners need to be hardened to the reality of coding: I do not expect that the high level of care, detail, and hand-holding to continue throughout the course. That said, some aspects of the course felt a bit underdeveloped or rushed in execution in ways that prevent learning at the level as other modules in this program. Below are some notes I took while taking the course:
 
 
  1. Pacing & Instruction Clarity
 
-* In Chapter 2, Lesson 2, the instructions are delivered as a single, large block rather than smaller, digestible steps. This made it harder for dummies like me to follow because there is a lot of opportunity for error and few opportunities to check your work. I think that breaking these big sheets into a few distinct checkpoints or levels (one "level" for each bulletpoint, for example) would provide natural moments to pause, reflect, and understand.
+* In Chapter 2, Lesson 2, the instructions are delivered as a single, large block rather than smaller, digestible steps. In some ways this feels great becuase it resembles a real workflow where you have an idea that may have several steps before anything can be tested. However, in the context of this course, this format leaves a lot of room for errors to be introduced, and few opportunities to check your work. I think that breaking these big sheets into a few distinct checkpoints or levels (one "level" for each bulletpoint, for example) would provide natural moments to pause, reflect, and understand. I think another way to provide useful guidance on proper syntax and format without coddling would be to remind students where in the past courses similar blocks of code were correctly constructed. 
 
 
  2. Missing Explanations & Missed Teaching Opportunities
 
-* Several pieces of code are introduced without explanation. This includes elements like infinite while loops, script structure, and certain unexplained syntax that may be unfamiliar to students new to scripting in Python.
-* There’s a real opportunity here to connect back to earlier OOP lessons by explicitly showing how principles like encapsulation or class-based design are being applied.
-* Comments like *“We’ll use this later”* (e.g. in C2L4) add confusion — if something isn’t used yet, why not introduce it only when relevant?
+* Several pieces of code are introduced without explanation about their function, their structure, or how they are/will be used. It was unclear to me why you would do this when a short description about what the code does and why the students aren't being asked to code it would add a low-cost opportunity to learn. Comments like *“We’ll use this later”* (e.g. in C2L4) add confusion — if something isn’t used yet, why not introduce it only when relevant?
+* This approach alos complicates the critical thinking that I think this course is going for. For example, In C2L6 the variable 'dt' comes back (cool!), but we actually are never told what it is or does, which makes it hard to efficiently problem solve when asked ("...To go left instead of right when a is pressed, you'll need to reverse dt... how can you do that...?""). The method would vary depending on the nature of dt. One would normally be content to trial and error, but the lack of run/submit checks in this course also make that difficult.
 
 
  3. Instructional Gaps & Unanswered Questions
@@ -23,17 +20,14 @@ That said, some aspects of the course felt a bit underdeveloped or rushed in exe
 
  4. Workflow & Debugging Experience
 
-* The decision to run the project across separate small files adds unnecessary complexity for learners who are just beginning to script. It makes debugging more difficult without adding much conceptual clarity at this stage.
-* Consider bundling things into a single file early on, then refactoring later as a lesson in modularity and design patterns.
+* The decision to run the project across separate small files is great because that is the standard for many projects. This, however, adds a bit of new complexity for students who (in this course) haven't really worked this way. Debugging is a big part of this course, and error messages that involve multiple files is good practice, but it does makes debugging more difficult without adding much conceptual clarity at this stage. I wonder whether bundling things into a single file early on, then refactoring later as a lesson in modularity and design patterns would be a more pedagogical approach. 
 
 
  5. Run/Submit Mechanism
 
-* In places like C2L4, the use of “Run and Submit” felt out of sync with the activity — particularly when the task was just to copy-paste code.
-* A better approach might be to let students attempt to write the code themselves, and then use "Run and Submit" to test and validate their solution.
-* If copying is necessary for now, perhaps “I’m done” would be a better label to reduce confusion about expectations.
+* In places like C2L4, the use of “Run and Submit” felt out of sync with the activity — particularly when the task was just to copy-paste code. I wondered why not let students attempt to write the code themselves, and then use "Run and Submit" to test and validate their solution?
 
 
  6. Student Experience
 
-This is the first course in the series where I genuinely considered quitting — not because of the challenge, but because the design felt less thoughtful and more fragmented than previous modules. It often felt like we were being asked to assemble something without being given all the tools or knowing what the final product should look like.
+This is the first course in the series where I genuinely considered quitting — not because of the challenge, but because the design felt less thoughtful and more fragmented than previous modules. It often felt like we were being asked to assemble something without being given all the tools or knowing what the final product should look like. I do think that being able to code up a simple  game is a *great* idea for a course, but I think that the format of this module as it is feels uncharacteristically underbaked, relative to the other modules I have completed thus far. I would personally love to complete a module just like this, but twice as long (if that meant more explaination, more places to test your code, and some recourse when things go pear shaped.)
